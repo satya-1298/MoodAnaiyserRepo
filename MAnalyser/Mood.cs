@@ -10,7 +10,7 @@ namespace MAnalyser
         public string MoodAnalyser(string message)
         {
            
-            if(this.message.Contains("Sad"))
+            if(message.Contains("Sad"))
             {
                 return "SAD";
             }
