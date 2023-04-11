@@ -6,14 +6,8 @@ using System.Threading.Tasks;
 
 namespace MAnalyser
 {
-    public class Mood
-    {
-        private string message;
-        public  Mood(string message)
-        {
-            this.message = message;
-        }
-        public string MoodAnalyser()
+   
+        public string MoodAnalyser(string message)
         {
            
             if(this.message.Contains("Sad"))
