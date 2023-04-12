@@ -17,10 +17,13 @@ namespace MAnalyser
         {
             try
             {
+                if (string.IsNullOrEmpty(this.message))
+                {
+                    throw new MoodException(MoodException.ExceptionType.EMPTY_MOOD, "message is empty");
+                }
 
 
-
-                if (this.message.ToLower().Contains("Sad"))
+                else if (this.message.ToLower().Contains("Sad"))
                 {
                     return "SAD";
                 }
@@ -28,7 +31,7 @@ namespace MAnalyser
                 {
                     return "Happy";
                 }
-            }catch
+            }catch(Exception ex) 
             {
                 return "Happy";
             }
