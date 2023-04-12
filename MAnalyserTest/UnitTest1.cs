@@ -15,7 +15,7 @@ namespace MAnalyserTest
             string message = "Iam in Sad mood";
             Mood mood = new Mood(message);
             string r = mood.MoodAnalyser();
-            string actualoutput = "Happy";
+            string actualoutput = "SAD";
             string expectedoutput;
             expectedoutput = mood.MoodAnalyser();
             Assert.AreEqual(actualoutput, expectedoutput);
@@ -77,7 +77,7 @@ namespace MAnalyserTest
            Assert.AreEqual(expected, obj);
         }
 
-        //TC 4.2 : Given Improper class name should throw MoodAnaliserException.
+        //TC 4.2 
         [TestMethod]
         public void GivenImproperClassNameShouldThrowMoodAnalyserException()
         {
@@ -92,7 +92,7 @@ namespace MAnalyserTest
             }
         }
 
-        //TC 4.3 : Given improper constructor should not throw MoodAnalyserException.
+        //TC 4.3
         [TestMethod]
         public void GivenImproperConstructorShouldThrowMoodAnalyserException()
         {
