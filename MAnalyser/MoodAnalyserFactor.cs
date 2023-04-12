@@ -35,5 +35,28 @@ namespace MAnalyser
 
             }
         }
+        public static object CreateMoodAnalyseUsingParameterizedConstructor(string className, string constructorName)
+        {
+            Type type = typeof(Mood);
+            //if (type.Name.Equals(className) || type.FullName.Equals(className))
+            //{
+                if (type.Name.Equals(constructorName))
+                {
+                    ConstructorInfo ctor = type.GetConstructor(new[] { typeof(string) });
+                    object instance = ctor.Invoke(new object[] {"HAPPY"});
+                    return instance;
+                }
+                else if(type.FullName.Equals(className))
+                {
+                    throw new MoodException(MoodException.ExceptionType.NO_SUCH_METHOD, "Constructor is Not Found");
+                }
+
+            //}
+            else
+            {
+                throw new MoodException(MoodException.ExceptionType.NO_SUCH_CLASS, "Class Not Found");
+            }
+
+        }
     }
 }
