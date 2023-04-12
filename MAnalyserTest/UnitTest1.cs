@@ -30,6 +30,19 @@ namespace MAnalyserTest
             expectedoutput = mood.MoodAnalyser();
             Assert.AreEqual(actualoutput, expectedoutput);
         }
+        //TC2.1
+        [TestMethod]
+        public void TestMethod3() 
+        {
+            string message2 = "";
+            Mood mood = new Mood(message2);
+            string r = mood.MoodAnalyser();
+            string actualoutput = "Happy";
+            string expectedoutput;
+            expectedoutput = mood.MoodAnalyser();
+            Assert.AreEqual(actualoutput, expectedoutput);
+
+        }
 
     }
 
