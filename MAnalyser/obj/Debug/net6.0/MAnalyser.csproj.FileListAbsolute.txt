@@ -1,0 +1,15 @@
+D:\assignments\MoodAnaiyserRepo\MAnalyser\bin\Debug\net6.0\MAnalyser.exe
+D:\assignments\MoodAnaiyserRepo\MAnalyser\bin\Debug\net6.0\MAnalyser.deps.json
+D:\assignments\MoodAnaiyserRepo\MAnalyser\bin\Debug\net6.0\MAnalyser.runtimeconfig.json
+D:\assignments\MoodAnaiyserRepo\MAnalyser\bin\Debug\net6.0\MAnalyser.dll
+D:\assignments\MoodAnaiyserRepo\MAnalyser\bin\Debug\net6.0\MAnalyser.pdb
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.csproj.AssemblyReference.cache
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.GeneratedMSBuildEditorConfig.editorconfig
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.AssemblyInfoInputs.cache
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.AssemblyInfo.cs
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.csproj.CoreCompileInputs.cache
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.dll
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\refint\MAnalyser.dll
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.pdb
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\MAnalyser.genruntimeconfig.cache
+D:\assignments\MoodAnaiyserRepo\MAnalyser\obj\Debug\net6.0\ref\MAnalyser.dll

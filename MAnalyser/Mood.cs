@@ -23,7 +23,7 @@ namespace MAnalyser
                 }
 
 
-                else if (this.message.ToLower().Contains("Sad"))
+                if (this.message.ToLower().Contains("Sad"))
                 {
                     return "SAD";
                 }
@@ -31,9 +31,9 @@ namespace MAnalyser
                 {
                     return "Happy";
                 }
-            }catch(Exception ex) 
+            }catch(Exception ) 
             {
-                return "Happy";
+                throw new MoodException(MoodException.ExceptionType.EMPTY_MOOD, "message is empty");
             }
 
         }

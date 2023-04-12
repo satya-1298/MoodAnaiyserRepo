@@ -10,7 +10,10 @@ namespace MAnalyser
     {
         public enum ExceptionType
         {
-            NULL_MOOD, EMPTY_MOOD
+            NULL_MOOD, EMPTY_MOOD,
+            NO_SUCH_CLASS, OBJECT_CREATION_ISSUE,
+            NO_SUCH_METHOD
+           
         }
         public ExceptionType exceptionType;
         public MoodException(ExceptionType exceptionType, string message) : base(message)
