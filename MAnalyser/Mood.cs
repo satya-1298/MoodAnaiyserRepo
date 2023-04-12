@@ -15,12 +15,20 @@ namespace MAnalyser
         }
         public string MoodAnalyser()
         {
-
-            if (this.message.Contains("Sad"))
+            try
             {
-                return "SAD";
-            }
-            else
+
+
+
+                if (this.message.ToLower().Contains("Sad"))
+                {
+                    return "SAD";
+                }
+                else
+                {
+                    return "Happy";
+                }
+            }catch
             {
                 return "Happy";
             }
